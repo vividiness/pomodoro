@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.frase{
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  position: fixed; /*sempre visivel no canto da tela, independente do scroll*/
+  bottom: 20px; 
+  right: 20px; 
+}
+
+.boas_vindas{
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
